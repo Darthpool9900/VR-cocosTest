@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "builds": [
+      {
+        "src": "build/web-mobile/index.html",
+        "dest": "build/web-mobile"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "build/web/index.html"
+      }
+    ]
+  }
